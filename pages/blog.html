@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<title>NoobishSRE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+    <!-- w3-content defines a container for fixed size centered content, 
+    and is wrapped around the whole page content, except for the footer in this example -->
+    <div class="w3-content" style="max-width:1400px">
+
+    <div class="nav-menu" style="max-width:1400px">
+    <ul>
+        <li><a class="active" href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/blog.html">Blog</a></li>
+        <li><a href="../pages/contact.html">Contact Me</a></li>
+    </ul>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32"> 
+    <h1><b>NoobishSRE</b></h1>
+    <p>Welcome to the blog of Derrick</p>
+    </header>
+
+    <!-- Grid -->
+    <div class="w3-row">
+
+        <!-- Blog entries -->
+        <div class="w3-col l8 s12">
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../assets/HBFS-MNUFC-sm.png" class="center" alt="post-img">
+                <div class="w3-container">
+                    <h3><b>Learning the Ropes</b></h3>
+                    <h5>Published: <span class="w3-opacity">December 28, 2016</span></h5>
+                </div>
+                <div class="w3-container">
+                    <p>
+                        As of today, I've been a SRE for one month now. I'd like to start by saying that this first post 
+                        and probably the next few, will not be very technically oriented. While I've published a little bit 
+                        of code to the prod environment, the majority of my time these first four weeks has been spent learning 
+                        the architecture of our infrastructure inch by inch. It's been a humbling experience to an extent. 
+                    </p>
+                    <br>
+                    <p>
+                        When I realized just how big my environment spans, I also realized that this would not be a quick or easy excursion.
+                        However, after a few weeks of research and whiteboard sessions, I finally had a good handle on our architecture. 
+                        The next struggle was learning what a Site Reliability Engineer actually does. Not only that, but what the workflow should be, 
+                        what should I be working on, what are the priority levels. 
+                    </p>
+                    <br>
+                    <p>
+                        To quote the great movie 'Office Space': "What would you say, you do here?".
+                        Admittedly, I'm still figuring this part at this point but I have a much better understanding of it then 
+                        I did when I started. I've come to learn that a SRE encompasses quite a bit more then just automating tasks. 
+                        We handle incidents, bridge calls on high priority issues, report analysis, network analysis, the list goes 
+                        on. In fact, today I published my first KB article to the Knowledge base used by our level 1 and 2 troubleshooting 
+                        teams. It was an interesting experience writing a KB from the perspective of someone who would not be using it. 
+                        No matter though, I received a "Nice Work" shout out from my manager before he forwarded it off to a few other managers, 
+                        so I must have done something right. In my next post, I'll try to discuss something a little more technical. 
+                        Thank you to anyone who views this and I hope you enjoyed.
+                    </p>
+                    <div class="w3-row">
+                        <div class="w3-col m8 s12">
+                            <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                        </div>
+                        <div class="w3-col m4 w3-hide-small">
+                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+                        </div>
+                    </div> <!--div class="w3-row-->
+                </div> <!--div class="w3-container-->
+            </div> <!--div class="w3-card-4 w3-margin w3-white"-->
+        <!-- END BLOG ENTRIES -->
+        </div> <!--div class="w3-col l8 s12"-->
+      
+    <!-- Introduction menu -->
+    <div class="w3-col l4">
+        <!-- About Card -->
+        <div class="w3-card w3-margin w3-margin-top">
+            <img src="../assets/whatdoyoudohere.gif" style="width:100%">
+            <div class="w3-container w3-white">
+                <h4><b>Recent News...</b></h4>
+                <p>My site is in the process of becoming gud!</p>
+            </div>
+        </div>
+        <hr>
+        
+        <!-- Posts -->
+        <div class="w3-card w3-margin">
+            <div class="w3-container w3-padding">
+                <h4>Popular Posts</h4>
+            </div>
+            <ul class="w3-ul w3-hoverable w3-white">
+                <li class="w3-padding-16">
+                <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">Mistakes Were Made...</span><br>
+                <span>In light of recent events that occurred during my most recent sprint, I'm going to break my post into two parts. The first will be a wonderful and meaningful story of an aspiring SRE and his triumph over his the industry and part 2 will be my first couple sprints. In case you haven't guessed already, the last part of my first statement might not have been entirely accurate and here's why. Yesterday I committed my code for this weeks sprint and in doing so, managed to kick off a chain of events which eventually went on to completely brick our whole Module.</span>
+                </li>
+                <li class="w3-padding-16">
+                <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">It's nothing special...... but it will do</span><br>
+                <span>Hello Again folks! I'm really excited for this post as it is my first time sharing a script via a blog. To preface, I'm clueless about the preferred method of sharing a script via a blog post nor do I really even how to format it for that matter. Additionally, being that this wonderful blog host doesn't allow much with formatting, I decided to use screenshots of the actual code and included a link for the script on pastebin at the bottom. I know, that's what I get for being cheap and choosing the free version. As always, I'm open to any suggestions or feedback. That in mind, lets get into this!</span>
+                </li> 
+                <li class="w3-padding-16">
+                <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">Powershell: Working In The Pipeline</span><br>
+                <span>Hello again! To start off today, I'd first like to apologize to any actual followers I might have for the delay since my last post. In addition to still getting used to blogging, as we all, the world can get pretty chaotic and busy. Luckily,  things have finally settled down and now I can get back into this thing. I've been looking forward to this post for some time now. With having the chance to break in my new Dev Environment during my last post, I'm excited to put it to good use. My plan for this approach is to start with pipeline Basics (Overview, basic usae) followed by some more advanced concepts and concluding with a script related to the commands used in the examples.</span>
+                </li>   
+                <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+                <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">Site Reliability Engineering: The Time for Change is Now!</span><br>
+                <span>OK.... I have a confession to make. Despite my intentions, it appears that I have not been entirely truthful with you. I know that I had planned to discuss and demonstrate Github usage for this post but I just can't do it. I think it's time that I take this blog and "change course" and start diving into some real topics and concepts. When I say "real", I'm referring to the core reason and motivation behind me even starting this blog, being an SRE. Also, let's be honest, if you want to learn how to use github, go to github.com. In addition to their site having plenty of documentation, said documentation is very thorough and easy to follow. Also, there's a high percentage chance that github is a more reliable source then myself.</span>
+                </li>  
+            </ul>
+        </div> <!--div class="w3-card w3-margin"-->
+    </div> <!--div class="w3-col l4"-->
+</div> <!--div class="w3-row"-->
+    </div> <!-- div class="w3-content"-->
+</body>
+</html>
